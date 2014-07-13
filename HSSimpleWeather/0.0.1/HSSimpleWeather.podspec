@@ -12,4 +12,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency 'HSCore'
+  s.dependency 'OpenWeatherMapAPI', '~> 0.0.5'
+  s.dependency 'NSString-UrlEncode', '~> 1.1'
 end
